@@ -1,6 +1,6 @@
 // Lógica para verificar código y cambiar contraseña
 
-const API_URL = 'http://localhost:8081/api/recuperar';
+const API_URL = 'https://proyectoecomerce-io.onrender.com/api/recuperar';
 
 document.addEventListener('DOMContentLoaded', () => {
     // Obtener email guardado

@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     try {
-      const res = await fetch("http://localhost:8081/api/usuario/login", {
+      const res = await fetch("https://proyectoecomerce-io.onrender.com/api/usuario/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }) 
